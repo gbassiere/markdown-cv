@@ -70,11 +70,28 @@ h3 { top: 1.7em; }
   width: 55%;
 }
 
+@media (max-width: 849px) {
+  #content > p, #content > ul, h1, #webaddress {
+    width: 75%;
+  }
+}
+
 /* Right column */
-p code {
-  position: absolute;
-  text-align: right;
-  right: -20%;
+
+@media (min-width: 850px) {
+  p code {
+    position: absolute;
+    text-align: right;
+    right: -20%;
+  }
+}
+
+@media (max-width: 849px) {
+  p code:after {
+    /* Emulate <br> by inserting a line-feed. */
+    content: '\A';
+    white-space: pre;
+  }
 }
 
 /* Vertical flow */
