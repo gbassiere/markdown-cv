@@ -66,7 +66,7 @@ table {
 
 /* Main (central) column */
 @media (min-width: 600px) {
-  #content > p, #content > ul, h1, #webaddress {
+  #content > p, #content > ul, #content > dl, h1, #webaddress {
     position: relative;
     left: 25%;
     margin-right: 0;
@@ -99,7 +99,7 @@ table {
 }
 
 /* Vertical flow */
-#content > p { margin-bottom: 0.7em; }
+#content > p, #content > dl, dd { margin-bottom: 0.7em; }
 
 #content > ul {
   margin-bottom: 1.5em;
@@ -183,6 +183,13 @@ a:hover {
 
 #webaddress a {
   text-decoration: none;
+}
+
+dt {
+  font-style: normal;
+  color: #888;
+  float: left;
+  margin-right: .5em;
 }
 
 em {
