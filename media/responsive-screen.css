@@ -52,27 +52,31 @@ table {
 
 /* Left column */
 
-h2, h3 {
-  position: relative;
-  width: 20%;
-  text-align: right;
+@media (min-width: 600px) {
+  h2, h3 {
+    position: relative;
+    width: 20%;
+    text-align: right;
+  }
+
+  h2 { top: 1.4em; }
+
+  h3 { top: 1.7em; }
 }
-
-h2 { top: 1.4em; }
-
-h3 { top: 1.7em; }
 
 /* Main (central) column */
-#content > p, #content > ul, h1, #webaddress {
-  position: relative;
-  left: 25%;
-  margin-right: 0;
-  width: 55%;
+@media (min-width: 600px) {
+  #content > p, #content > ul, h1, #webaddress {
+    position: relative;
+    left: 25%;
+    margin-right: 0;
+    width: 75%;
+  }
 }
 
-@media (max-width: 849px) {
+@media (min-width: 850px) {
   #content > p, #content > ul, h1, #webaddress {
-    width: 75%;
+    width: 55%;
   }
 }
 
