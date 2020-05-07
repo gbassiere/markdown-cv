@@ -10,9 +10,14 @@ body {
   margin-left: 0;
 }
 
-p {
+#content > p, #content > dl, dd {
   margin-bottom: 0.2em;
-  width: 60%;
+}
+
+@media (min-width: 850px) {
+  #content > p, #content > ul, h1, #webaddress {
+    width: 60%;
+  }
 }
 
 code {
@@ -46,9 +51,4 @@ a {
 em {
   font-style: normal;
   color: #2d4e5e
-}
-
-#ghbutton {
-  display: none;
-  visibility: hidden;
 }
