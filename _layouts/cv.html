@@ -1,16 +1,29 @@
 <!doctype html>
-<html>
+<html lang="fr">
 <head>
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
   <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
   <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
+  <link href="media/gbassiere-perso.css" type="text/css" rel="stylesheet">
 </head>
 <body>
   <div id="main">
-    <div id="content">
+    <div id="content" class="h-card">
     {{ content }}
     </div>
   </div>
+  <script>
+    // Obfuscation email : https://stackoverflow.com/a/41566570/13449441
+    document.addEventListener('DOMContentLoaded', function() {
+      var elts = document.querySelectorAll('.u-email'), i, elt, addr;
+      for (i=0; i<elts.length; i++) {
+        elt = elts[i];
+        addr = elt.dataset.name + '@' + elt.dataset.domain + '.' + elt.dataset.tld;
+        elt.href = 'mailto:' + addr;
+        elt.innerHTML = addr;
+      }
+    }, false);
+  </script>
 </body>
 </html>
