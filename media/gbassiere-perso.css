@@ -1,11 +1,3 @@
-/* TODO
- * x responsive layout
- * o place pour un visuel (optionel) genre photo de profil ?
- * x obfuscation de l'adresse email
- * x ajout d'une icône pour le numéro de téléphone
- * o système multilingue ?
- */
-
 /* Surcharge du style de Dave Whipp */
 p.p-job-title { /* Fonction plus visible */
   font-size: 1.3em; margin-bottom: 2em; color: #05b;
@@ -53,10 +45,11 @@ h4 { /* Titres de la colonne centrale */
   }
 }
 p code {font-weight: bold;}
+
 /* blocs projets */
 ul.dim {
   margin: 0 0 .7em 0 !important;
-  list-style: "⋆ " outside;
+  list-style: disc outside;
   color: #f80;
   padding-left: 1em;
 }
@@ -72,10 +65,11 @@ ul.dim li p + p {
   font-size: 90%;
   color: #777;
 }
+
 /* liste à puces colorées */
-li {padding-left: 1em; text-indent: -1em;}
-@media screen {li:before {content: "⋆ "; color: #f80;}}
-@media print {li:before {content: "• ";} ul.dim {list-style-type: "• "; color: #000;}}
+li {padding-left: 1.1em; text-indent: -1.1em;}
+li:before {content: "•"; color: #f80; font-size: 115%; margin-right: 0.4em;}
+@media print {li:before, ul.dim {color: #000;}}
 
 @media print {dt:after {content: " : ";}}
 
