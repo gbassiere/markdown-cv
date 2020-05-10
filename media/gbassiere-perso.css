@@ -1,43 +1,55 @@
-/* Surcharge du style de Dave Whipp */
-p.p-job-title { /* Fonction plus visible */
+/* Overloads of markdown-cv stylesheet */
+
+/* Job title increased visibility */
+p.p-job-title {
   font-size: 1.3em; margin-bottom: 2em; color: #05b;
 }
 
-/* Mes couleurs #05B (bleu) et #F80 (orange) */
+/* My own colors: #05B (blue like the sea) with a drop of #F80 (orange) */
 h1, h2 {color: #05b;}
 @media (max-width: 600px) {
   h3 {color: #05b;}
 }
+
 @media (min-width: 600px) {
-  h4 { /* Inclure aussi les H4 dans la colonne centrale */
+  /* Experience & Formation headers as <h4> instead of <strong> */
+  h4 {
     position: relative;
     left: 25%;
     width: 75%;
   }
+  /* Increase space between sections */
   h2 { top: 2.6em;}
   h2 + p, h2 + dl {margin-top: 1.4em;}
 }
+
 @media (min-width: 850px) {
+  /* Experience & Formation headers as <h4> instead of <strong> */
   h4 {
     width: 55%;
   }
-  h4 code { /* Reprise de `p code` */
+  /* Reproduce original style of `p code` since <code> is now within an <h4> */
+  h4 code {
     position: absolute;
     text-align: right;
     right: -20%;
   }
 }
+
+/* Experience & Formation headers as <h4> instead of <strong> */
 @media only print and (min-width: 850px) {
   h4 {
     width: 60%;
   }
 }
-h4 { /* Titres de la colonne centrale */
+h4 {
   font-weight: bold;
   margin-bottom: .7em;
   color: #05b;
   margin: 1.4em 0 .7em 0;
 }
+
+/* Reproduce original style of `p code` since <code> is now within an <h4> */
 @media (max-width: 849px) {
   h4 code:after { /* Reprise de `p code` */
     content: '\A';
@@ -46,7 +58,7 @@ h4 { /* Titres de la colonne centrale */
 }
 p code {font-weight: bold;}
 
-/* blocs projets */
+/* Bullet list for details of projects within an experience */
 ul.dim {
   margin: 0 0 .7em 0 !important;
   list-style: disc outside;
@@ -66,22 +78,29 @@ ul.dim li p + p {
   color: #777;
 }
 
-/* liste à puces colorées */
+/* Coloured bullets */
 li {padding-left: 1.1em; text-indent: -1.1em;}
 li:before {content: "•"; color: #f80; font-size: 115%; margin-right: 0.4em;}
 @media print {li:before, ul.dim {color: #000;}}
 
+/* Better readability of printed <dl> */
 @media print {dt:after {content: " : ";}}
 
+/* Links to my other online profiles */
 .links a {margin-right: 1em;}
 @media print {.links {display: none;}}
 
-.h-adr em, .h-geo em { /* `em` is used as a span here */
+/* Restore normal font-style of some <em> which are just used as Markdown-friendlt <span> */
+.h-adr em, .h-geo em {
   font-style: normal;
 }
-.h-geo { /* Masquer les coordonnées, uniquement utiles pour la vCard */
+
+/* Hide geographic coordinate, it is there only for microformat h-card */
+.h-geo {
   display: none;
 }
+
+/* Highligh abbreviation */
 abbr {cursor: help;}
 
 /* Printing recommendations */
