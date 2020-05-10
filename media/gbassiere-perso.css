@@ -61,27 +61,16 @@ p code {font-weight: bold;}
 /* Bullet list for details of projects within an experience */
 ul.dim {
   margin: 0 0 .7em 0 !important;
-  list-style: disc outside;
-  color: #f80;
-  padding-left: 1em;
 }
-ul.dim li {
-  padding-left: 0;
-  text-indent: 0;
-}
-ul.dim li p {
-  color: #000;
-}
-ul.dim li:before {content: none;}
 ul.dim li p + p {
   font-size: 90%;
   color: #777;
 }
 
 /* Coloured bullets */
-li {padding-left: 1.1em; text-indent: -1.1em;}
-li:before {content: "•"; color: #f80; font-size: 115%; margin-right: 0.4em;}
-@media print {li:before, ul.dim {color: #000;}}
+li {padding-left: 1em; position: relative; text-indent: 0;}
+li:before {content: "•"; color: #f80; position:absolute; top: 0; left: 0;}
+@media print {li:before {color: #000;}}
 
 /* Better readability of printed <dl> */
 @media print {dt:after {content: " : ";}}
