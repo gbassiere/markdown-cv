@@ -84,6 +84,12 @@ li:before {content: "•"; color: #f80; font-size: 115%; margin-right: 0.4em;}
 }
 abbr {cursor: help;}
 
+/* Printing recommendations */
+@media print {
+  #content p, #content ul, #content dl {page-break-before: avoid;}
+  li, dl, h2, h3, h4 {page-break-inside: avoid;}
+}
+
 /* Icons from Ionicons set
  * Copyright (c) 2015-present Ionic (http://ionic.io/)
  * licensed under the MIT License
