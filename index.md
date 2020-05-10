@@ -49,7 +49,7 @@ Curieux et toujours à la recherche de nouveaux défis, je me tiens prêt à
 
 ### Intérêts
 
-Applications web, applications mobiles (hybrides), cartographie/SIG, analyse de données, logiciels libres, qualité logicielle, travail collaboratif.
+Applications web, applications mobiles (hybrides), cartographie/SIG, analyse de données, logiciels libres, qualité logicielle, travail collaboratif, sciences.
 
 
 ### Techniques
@@ -85,9 +85,12 @@ Collaborativité
 
 ## Expériences
 
-#### `depuis 2020` Développeur indépendant
+#### Développeur indépendant
 
-Application de réservation de panier paysan (produits maraîchers). Projet en cours.
+- Actuellement : Application de réservation de panier paysan (produits maraîchers). Projet en cours.
+- En 2012 : Site web mettant en valeur les lauréats du Prix de l'Architecture du [CAUE13](https://www.caue13.fr/).
+- En 2006 : Base de données d'observations faune/flore reliée au SIG pour le
+  [Syndicat mixte Camargue Gardoise](https://www.camarguegardoise.com/).
 
 
 #### `2016-2019` Pause professionnelle
@@ -101,7 +104,7 @@ Expérimentation d'activités diverses :
 
 #### `2012-2016` Développeur full-stack web/mobile chez [Natural Solutions](https://www.natural-solutions.eu/)
 
-Conception et réalisation d'applications web ou mobile. Traitement de données.
+Conception et réalisation d'applications web ou mobiles (hybrides). Traitement de données.
 Forte implication dans la rédaction des propositions commerciales (mémoires techniques).
 Veille. Qualité logicielle.
 
@@ -177,6 +180,12 @@ En télé-travail de 2009 à 2012. Travail en équipe, agilité.
 
   Conception des supports, préparation et animation des formations.
 {: class="dim"}
+
+
+#### `été 2004` Développeur web stagiaire chez Jiga
+
+Développement d’un module de comptabilité analytique pour le système de gestion de production interne (intranet).
+
 
 #### `2001-2003` Attaché aux relations avec le public, théâtre de Chateauvallon
 
