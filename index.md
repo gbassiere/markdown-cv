@@ -88,6 +88,7 @@ Collaborativité
 #### Développeur indépendant
 
 - Actuellement : Application de réservation de panier paysan (produits maraîchers). Projet en cours.
+- En 2020 : Réalisation d'une API permettant d'interagir avec un sondeur pour [Cadden](https://www.cadden.fr/). Technologies utilisées : Python, Flask, Swagger, Postgresql.
 - En 2012 : Site web mettant en valeur les lauréats du Prix de l'Architecture du [CAUE13](https://www.caue13.fr/).
 - En 2006 : Base de données d'observations faune/flore reliée au SIG pour le
   [Syndicat mixte Camargue Gardoise](https://www.camarguegardoise.com/).
