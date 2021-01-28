@@ -151,7 +151,7 @@ Travail en équipe, agilité, méthode Scrum.
 
 #### `2008-2013` Chargé d'enseignement à l'[Université d'Orléans](http://www.univ-orleans.fr/)
 
-Animation du TD « Introduction à la programmation en Python ». Vacations (30h/an).
+Animation du TD « Introduction à la programmation en Python » pour des étudiants en géomatique (Master 2 SIG). Vacations (30h/an).
 
 
 #### `2007-2012` Développeur web/SIG chez [Makina Corpus](https://makina-corpus.com/)
