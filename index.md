@@ -87,9 +87,9 @@ Collaborativité
 
 #### Développeur indépendant
 
-- Actuellement : Application de réservation de panier paysan (produits maraîchers). Projet en cours.
-- En 2020 : Réalisation d'une API permettant d'interagir avec un sondeur pour [Cadden](https://www.cadden.fr/). Technologies utilisées : Python, Flask, Swagger, Postgresql.
-- En 2012 : Site web mettant en valeur les lauréats du Prix de l'Architecture du [CAUE13](https://www.caue13.fr/).
+- Actuellement : Application de réservation de panier paysan (produits maraîchers). Projet en cours. *Python/Django*{: class="tech-tag"}
+- En 2020 : Réalisation d'une API permettant d'interagir avec un sondeur pour [Cadden](https://www.cadden.fr/). *Python/Flask*{: class="tech-tag"} *Swagger*{: class="tech-tag"} *Postgresql*{: class="tech-tag"}
+- En 2012 : Site web mettant en valeur les lauréats du Prix de l'Architecture du [CAUE13](https://www.caue13.fr/). *Wordpress*{: class="tech-tag"} *Google Maps API*{: class="tech-tag"}
 - En 2006 : Base de données d'observations faune/flore reliée au SIG pour le
   [Syndicat mixte Camargue Gardoise](https://www.camarguegardoise.com/).
 
@@ -124,23 +124,23 @@ Travail en équipe, agilité, méthode Scrum.
 - [ecoBalade](http://www.ecobalade.fr/) : Application de découverte de la
   faune et de la flore.
 
-  Restructuration de l'application mobile.
+  Restructuration de l'application mobile. *Javascript*{: class="tech-tag"} *Cordova*{: class="tech-tag"}
 
 - [ImageInOsm](https://apps.apple.com/fr/app/imageinosm/id786164827) :
-  application de photomapping, financé par la Mairie d'Orange.
+  application de photomapping pour OpenStreetMap, financé par la Mairie d'Orange.
 
-  Gestion de projet, conception, réalisation.
+  Gestion de projet, conception, réalisation. *Javascript*{: class="tech-tag"} *Backbone*{: class="tech-tag"} *Cordova*{: class="tech-tag"}
 
 - [Sauvages de ma rue](http://sauvagesdemarue.mnhn.fr/) : programme de
   sciences participatives autour de la flore urbaine
   ([Tela Botanica](https://www.tela-botanica.org/)/[MNHN](https://www.mnhn.fr/)).
 
-  Contribution au code de l'application. Pair programming et code review.
+  Contribution au code de l'application. Pair programming et code review. *Javascript*{: class="tech-tag"} *Backbone*{: class="tech-tag"} *Cordova*{: class="tech-tag"} *npm*{: class="tech-tag"}
 
 - [Mon Jardin en Ville](http://www.mon-jardin-en-ville.fr/) : application
   mobile invitant à explorer l'urbain végétalisé (preuve de concept).
 
-  Contribution au code de l'application. Pair programming et code review.
+  Contribution au code de l'application. Pair programming et code review. *Javascript*{: class="tech-tag"} *Backbone*{: class="tech-tag"} *Cordova*{: class="tech-tag"}
 
 - Organisation et animation d'ateliers de formation internes
 
@@ -163,19 +163,23 @@ En télé-travail de 2009 à 2012. Travail en équipe, agilité.
 
 - Application de gestion des sentiers pour le [Parc National des Écrins](http://www.ecrins-parcnational.fr/)
 
-  Développement front- et back-end. Base de données et procédures stockées. Moteur de calcul d'itinéraire de randonnée.
+  Développement front- et back-end. Base de données et procédures stockées. Moteur de calcul d'itinéraire de randonnée. *PostGIS*{: class="tech-tag"} *Python/Django*{: class="tech-tag"} *Javascript*{: class="tech-tag"} *Leaflet*{: class="tech-tag"}
+
+- Processus de réplication de la base de données OpenStreetMap (projet interne)
+
+  Scripts, volume de données important, support de charge. *PostGIS*{: class="tech-tag"} *openstreetmap*{: class="tech-tag"}
 
 - [Web-SIG SafeMed](http://safemedgis.rempec.org/) : Outil cartographique d'analyse du trafic maritime pour [REMPEC](https://www.rempec.org/) (OMI)
 
-  Architecture du projet. Développement front- et back-end. Déploiement. Formation.
+  Architecture du projet. Développement front- et back-end. Déploiement. Formation. *PostGIS*{: class="tech-tag"} *Python/Django*{: class="tech-tag"} *Javascript*{: class="tech-tag"} *OpenLayers*{: class="tech-tag"}
 
 - SerPIC : Portail collaboratif pour les acteurs de l'économie forestière montagnarde
 
-  Analyse et conception, développement front- et back-end, formation.
+  Analyse et conception, développement front- et back-end, formation. *PostGIS*{: class="tech-tag"} *Python/Django*{: class="tech-tag"} *Javascript*{: class="tech-tag"} *OpenLayers*{: class="tech-tag"}
 
 - Portail cartographique de la ville de Cannes
 
-  Gestion du projet. Optimisation des performances du serveur cartographique. Intégration au CMS. Développement front-end. Formation.
+  Gestion du projet. Optimisation des performances du serveur cartographique. Intégration au CMS. Développement front-end. Formation. *PostGIS*{: class="tech-tag"} *GeoServer*{: class="tech-tag"} *Javascript*{: class="tech-tag"} *OpenLayers*{: class="tech-tag"}
 
 - Nombreuses formations PostGIS pour des collectivités et organismes de recherche
 
@@ -275,4 +279,6 @@ Dernière mise à jour : mai 2020
 *[DUT]: Diplôme universitaire de technologie
 *[OMI]: Organisation maritime internationale
 *[CMS]: Content management system
+*[MNHN]: Museum National d'Histoire Naturelle
+*[CAUE13]: Conseil d’Architecture, d’Urbanisme et de l’Environnement des Bouches-du-Rhône
 *[SIG]: Système d'information géographique

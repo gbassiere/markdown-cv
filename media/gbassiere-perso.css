@@ -79,7 +79,7 @@ li:before {content: "•"; color: #f80; position:absolute; top: 0; left: 0;}
 .links a {margin-right: 1em;}
 @media print {.links {display: none;}}
 
-/* Restore normal font-style of some <em> which are just used as Markdown-friendlt <span> */
+/* Restore normal font-style of some <em> which are just used as Markdown-friendly <span> */
 .h-adr em, .h-geo em {
   font-style: normal;
 }
@@ -91,6 +91,15 @@ li:before {content: "•"; color: #f80; position:absolute; top: 0; left: 0;}
 
 /* Highligh abbreviation */
 abbr {cursor: help;}
+
+/* Highlight tags */
+em.tech-tag {
+  font-style: normal;
+  color: #888;
+  background-color: #f2f2ff;
+  border-radius: .4em;
+  padding: .2em;
+}
 
 /* Printing recommendations */
 @media print {
